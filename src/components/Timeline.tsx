@@ -20,7 +20,7 @@ function Timeline() {
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Advanced Analytics Practicum</h3>
+            <h3 className="vertical-timeline-element-title">Machine Learning & AI Practicum</h3>
             <h4 className="vertical-timeline-element-subtitle">Cymantix - Raleigh, NC</h4>
             <p>
             NLP, Transformer Models, Word Embeddings, Sentiment Analysis, Named Entity Recognition, Text Classification, Topic Modeling.
@@ -40,29 +40,54 @@ function Timeline() {
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="2021 - 2021"
+            date="2023 - 2023"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Staff Engineer Intern</h3>
-            <h4 className="vertical-timeline-element-subtitle">Laie, HI</h4>
+            <h3 className="vertical-timeline-element-title">Business Insights Intern</h3>
+            <h4 className="vertical-timeline-element-subtitle">Nationwide - Columbus, OH</h4>
             <p>
-              Full-stack Development, API Development, User Experience
+              Automation, Snowflake, Teradata, SQL Server, Dataiku, Data Bricks, Data Robot, Python, Tableau.
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="2020 - 2020"
+            date="2022 - 2023"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
             <h3 className="vertical-timeline-element-title">Data Analyst Intern</h3>
-            <h4 className="vertical-timeline-element-subtitle">Tokyo, Japan</h4>
+            <h4 className="vertical-timeline-element-subtitle">Syneos Health - Morrisville, NC</h4>
             <p>
-              Automation, Data Governance, Statistical Analysis
+              Python, Azure, AWS, Microsoft Power Platform, R Shiny, Power BI.
+            </p>
+            <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            date="2022 - 2022"
+            iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
+            icon={<FontAwesomeIcon icon={faBriefcase} />}
+          >
+            <h3 className="vertical-timeline-element-title">Project Manager Intern Intern</h3>
+            <h4 className="vertical-timeline-element-subtitle">Syneos Health - Morrisville, NC</h4>
+            <p>
+              Jira, Microsoft Project, Asana, Monitoring and Reporting, Budget Management.
+            </p>
+          </VerticalTimelineElement>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            date="2021 - 2022"
+            iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
+            icon={<FontAwesomeIcon icon={faBriefcase} />}
+          >
+            <h3 className="vertical-timeline-element-title">ERP Product Specialist Intern</h3>
+            <h4 className="vertical-timeline-element-subtitle">Prometheus Group - Raleigh, NC</h4>
+            <p>
+              SAP, ERP, RFPs, RFIs, SOWs, and Customer Experience.
             </p>
           </VerticalTimelineElement>
         </VerticalTimeline>
+        
       </div>
     </div>
   );

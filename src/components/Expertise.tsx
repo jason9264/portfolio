@@ -61,7 +61,7 @@ function Expertise() {
                 <div className="skill">
                     <FontAwesomeIcon icon={faDocker} size="3x"/>
                     <h3>Statistics & Analysis</h3>
-                    <p>My interest in statistics was sparked by Asimov’s Foundation, where a future statistician predicts the future through data.</p> <p>Analyzing large datasets gives me a unique sense of fulfillment, and every new piece of knowledge enhances my skills, allowing me to really embrace being a “jack of all trades”.</p>
+                    <p>My interest in statistics was sparked by Asimov’s Foundation, where a statistician predicts the future with data.</p> <p>Analyzing large datasets gives me a unique sense of fulfillment, and every new piece of knowledge enhances my skills, allowing me to really embrace being a “jack of all trades”.</p>
                     <div className="flex-chips">
                         <span className="chip-title">Concepts:</span>
                         {labelsSecond.map((label, index) => (
@@ -73,7 +73,7 @@ function Expertise() {
                 <div className="skill">
                     <FontAwesomeIcon icon={faPython} size="3x"/>
                     <h3>Data Engineering</h3>
-                    <p>I love data engineering for its big-picture perspective that merges structure and problem-solving, similar to cooking, where you consider the entire dish.</p> <p> It offers complexity and rewards that influence all business areas, similar to preparing a well thought out meal.</p>
+                    <p>I love data engineering for its big-picture perspective that merges structure and problem-solving, similar to cooking, where you consider the entire dish.</p> <p> It offers complexity and unqiue rewards by influencing all business areas, like preparing a well thought out meal.</p>
                     <div className="flex-chips">
                         <span className="chip-title">Tech Stack:</span>
                         {labelsThird.map((label, index) => (
