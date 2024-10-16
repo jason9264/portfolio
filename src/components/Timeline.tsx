@@ -10,32 +10,32 @@ function Timeline() {
   return (
     <div id="history">
       <div className="items-container">
-        <h1>Career History</h1>
+        <h1>Learning Journey</h1>
         <VerticalTimeline>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             contentStyle={{ background: 'white', color: 'rgb(39, 40, 34)' }}
             contentArrowStyle={{ borderRight: '7px solid  white' }}
-            date="2022 - present"
+            date="2024 - present"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Technology Consultant</h3>
-            <h4 className="vertical-timeline-element-subtitle">Dallas, TX</h4>
+            <h3 className="vertical-timeline-element-title">Advanced Analytics Practicum</h3>
+            <h4 className="vertical-timeline-element-subtitle">Cymantix - Raleigh, NC</h4>
             <p>
-              Full-stack Web Development, GenAI/LLM, Project Management, Business Development
+            NLP, Transformer Models, Word Embeddings, Sentiment Analysis, Named Entity Recognition, Text Classification, Topic Modeling.
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="2020 - 2022"
+            date="2024 - Present"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Full Stack Engineer</h3>
-            <h4 className="vertical-timeline-element-subtitle">Laie, HI</h4>
+            <h3 className="vertical-timeline-element-title">M.S. Candidate in Analytics</h3>
+            <h4 className="vertical-timeline-element-subtitle">Institute for Advanced Analytics - Raleigh, NC</h4>
             <p>
-              Frontend Development, Backend Development, User Experience, Team Leading
+            Deep Learning, Linear & Logistic Regression, Time Series, Bayesian Statistics, Simulation and Risk, Fraud Detection.
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement

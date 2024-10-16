@@ -6,51 +6,50 @@ import Chip from '@mui/material/Chip';
 import '../assets/styles/Expertise.scss';
 
 const labelsFirst = [
-    "React",
-    "TypeScript",
-    "JavaScript",
-    "HTML5",
-    "CSS3",
-    "SASS",
-    "Flask",
     "Python",
-    "SQL",
-    "PostgreSQL",
-    "Postman"
+    "Scikit-learn",
+    "Tensorflow",
+    "Keras",
+    "Pytorch",
+    "Transformers",
+    "NLTK",
+    "spaCY",
+    "SUMY"
 ];
 
 const labelsSecond = [
-    "Git",
-    "GitHub Actions",
-    "Docker",
-    "AWS",
-    "Azure",
-    "Linux",
-    "Snowflake",
-    "Pandas",
+    "R",
+    "Linear Regression",
+    "Logistic Regression",
+    "ARIMA Modeling",
+    "A/B Testing",
+    "Bayesian Statistics",
+    "SVM",
+    "Naive Bayes",
+    "Clustering",
     "Selenium",
 ];
 
 const labelsThird = [
-    "OpenAI",
-    "Groq",
-    "LangChain",
-    "Qdrant",
-    "Hugging Face",
-    "LlamaIndex",
-    "Streamlit",
+    "SQL",
+    "PostgreSQL",
+    "Snowflake",
+    "Teradata",
+    "AWS",
+    "Dataiku",
+    "Data Bricks"
 ];
 
 function Expertise() {
     return (
     <div className="container" id="expertise">
         <div className="skills-container">
-            <h1>Expertise</h1>
+            <h1>Knowledge Areas</h1>
             <div className="skills-grid">
                 <div className="skill">
                     <FontAwesomeIcon icon={faReact} size="3x"/>
-                    <h3>Full Stack Web Development</h3>
-                    <p>I have built a diverse array of web applications from scratch using modern technologies such as React and Flask. I have a strong proficiency in the SDLC process and frontend + backend development.</p>
+                    <h3>Machine Learning</h3>
+                    <p>My passion for machine learning began during my Master’s in Analytics. I was captivated by its ability to solve problems beyond traditional statistics by learning and using innovative approaches. </p> <p>I really believe that machine learning will bring cutting edge advancements, and help to improve quality of life around the world.</p>
                     <div className="flex-chips">
                         <span className="chip-title">Tech stack:</span>
                         {labelsFirst.map((label, index) => (
@@ -61,10 +60,10 @@ function Expertise() {
 
                 <div className="skill">
                     <FontAwesomeIcon icon={faDocker} size="3x"/>
-                    <h3>DevOps & Automation</h3>
-                    <p>Once the application is built, I help clients set up DevOps testing, CI/CD pipelines, and deployment automation to support the successful Go-Live.</p>
+                    <h3>Statistics & Analysis</h3>
+                    <p>My interest in statistics was sparked by Asimov’s Foundation, where a future statistician predicts the future through data.</p> <p>Analyzing large datasets gives me a unique sense of fulfillment, and every new piece of knowledge enhances my skills, allowing me to really embrace being a “jack of all trades”.</p>
                     <div className="flex-chips">
-                        <span className="chip-title">Tech stack:</span>
+                        <span className="chip-title">Concepts:</span>
                         {labelsSecond.map((label, index) => (
                             <Chip key={index} className='chip' label={label} />
                         ))}
@@ -73,10 +72,10 @@ function Expertise() {
 
                 <div className="skill">
                     <FontAwesomeIcon icon={faPython} size="3x"/>
-                    <h3>GenAI & LLM</h3>
-                    <p>Stay relevant in the market by leveraging the latest AI models in your projects. I have professional experience building enterprise grade GenAI-enabled solutions to empower intelligent decision making.</p>
+                    <h3>Data Engineering</h3>
+                    <p>I love data engineering for its big-picture perspective that merges structure and problem-solving, similar to cooking, where you consider the entire dish.</p> <p> It offers complexity and rewards that influence all business areas, similar to preparing a well thought out meal.</p>
                     <div className="flex-chips">
-                        <span className="chip-title">Tech stack:</span>
+                        <span className="chip-title">Tech Stack:</span>
                         {labelsThird.map((label, index) => (
                             <Chip key={index} className='chip' label={label} />
                         ))}
