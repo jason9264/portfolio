@@ -28,7 +28,6 @@ const labelsSecond = [
     "SVM",
     "Naive Bayes",
     "Clustering",
-    "Selenium",
 ];
 
 const labelsThird = [
