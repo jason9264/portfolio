@@ -27,9 +27,19 @@ function App() {
 
     const handleModeChange = () => {
         setMode(prevMode => (prevMode === 'dark' ? 'light' : 'dark'));
-    }
+    };
+
+    // Preload images
+    const preloadImage = (src: string) => { // Explicitly define src as string
+        const img = new Image();
+        img.src = src;
+    };
 
     useEffect(() => {
+        // Preload background images
+        preloadImage("./assets/images/bg-dark.png");
+        preloadImage("./assets/images/bg-light.png");
+
         window.scrollTo({ top: 0, left: 0, behavior: 'smooth' });
     }, []);
 
