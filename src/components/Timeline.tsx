@@ -61,7 +61,8 @@ function Timeline() {
             <p>
               Python, Azure, AWS, Microsoft Power Platform, R Shiny, Power BI.
             </p>
-            <VerticalTimelineElement
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
             className="vertical-timeline-element--work"
             date="2022 - 2022"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
@@ -72,7 +73,6 @@ function Timeline() {
             <p>
               Jira, Microsoft Project, Asana, Monitoring and Reporting, Budget Management.
             </p>
-          </VerticalTimelineElement>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
