@@ -15,12 +15,8 @@ code {
 	position: relative;
 	background-size: cover;
 	background-position: center;
-	transition: background-color .65s ease, color .65s ease;
-	/* Transition for background and color */
-	.about-section {
-		transition: background-image .85s ease;
-		/* Transition for the about section background image */
-	}
+	transition: background-color 0.4s ease-in-out, color 0.4s ease-in-out;
+	/* Adjusted duration for faster transition */
 }
 a {
 	text-decoration: none;
@@ -36,8 +32,8 @@ p, a, h1, h2, h3, h4, h5, label, button {
 .navigation-bar {
 	justify-content: space-between;
 	background-color: #0d1116;
-	transition: background-color .65s ease-in-out, color .65s ease-in-out;
-	/* Add transition properties */
+	transition: background-color 0.4s ease-in-out, color 0.4s ease-in-out;
+	/* Adjusted duration for faster transition */
 	button {
 		font-size: 1.1rem;
 		font-family: "Roboto", sans-serif;
@@ -61,6 +57,8 @@ p, a, h1, h2, h3, h4, h5, label, button {
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
+	transition: background-color 0.4s ease-in-out, color 0.4s ease-in-out;
+	/* Adjusted duration for faster transition */
 }
 .header-image {
 	width: 100%;
@@ -87,6 +85,8 @@ p, a, h1, h2, h3, h4, h5, label, button {
 }
 .light-mode {
 	background-color: #f8f9fa;
+	transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
+	/* Adjusted duration for faster transition */
 	.navigation-bar {
 		background-color: #f8f9fa;
 	}
@@ -126,7 +126,6 @@ p, a, h1, h2, h3, h4, h5, label, button {
 		color: #0d1116;
 	}
 }
-
 @media screen {
 	@media (max-width: 768px) {
 		.items-container {
@@ -134,3 +133,41 @@ p, a, h1, h2, h3, h4, h5, label, button {
 		}
 	}
 }
+.main-container {
+	position: relative;
+	background-position: center;
+	transition: background-color 0.4s ease-in-out, color 0.4s ease-in-out;
+	/* Adjusted duration for faster transition */
+}
+.about-section {
+	transition: background-image .9s ease;
+	/* Transition for the about section background */
+}
+.light-mode {
+	background-color: #f8f9fa;
+	transition: background-color .4s ease-in-out, color .4s ease-in-out;
+	/* Adjusted duration for faster transition */
+	.main-container {
+		background-image: url("./assets/images/bg-light.png");
+		/* Set light mode background */
+	}
+	.about-section {
+		transition: background-image .5s ease;
+		/* Transition for the about section background */
+	}
+}
+/* Dark mode settings */
+.dark-mode {
+	background-color: #0d1116;
+	transition: background-color .25s ease-in-out, color .25s ease-in-out;
+	/* Adjusted duration for faster transition */
+	.main-container {
+		background-image: url("./assets/images/bg-dark.png");
+		/* Set dark mode background */
+	}
+	.about-section {
+		transition: background-image .5s ease;
+		/* Transition for the about section background */
+	}
+}
+
