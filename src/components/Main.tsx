@@ -17,8 +17,7 @@ function Main() {
             <a href="https://www.linkedin.com/in/jason9264/" target="_blank" rel="noreferrer"><LinkedInIcon/></a>
           </div>
           <h1>Jason Wang</h1>
-          <p>Programming, statistics, and problem solving.</p>
-
+          <p><i>"Beyond data science, I love reading, cooking, and snowboarding, all of which fuel my passion for solving problems and creating solutions. Whether it’s analyzing data or perfecting a recipe, I enjoy using the knowledge I have and the information surrounding me to approach challenges." </i></p>
           <div className="mobile_social_icons">
             <a href="https://github.com/jason9264" target="_blank" rel="noreferrer"><GitHubIcon/></a>
             <a href="https://www.linkedin.com/in/jason9264/" target="_blank" rel="noreferrer"><LinkedInIcon/></a>
