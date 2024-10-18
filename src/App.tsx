@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import LocomotiveScroll from 'locomotive-scroll';
 import {
   Main,
   Timeline,
@@ -12,6 +13,7 @@ import FadeIn from './components/FadeIn';
 import './index.scss';
 
 function App() {
+    
     const [mode, setMode] = useState<string>('dark');
 
     // Load mode from local storage
